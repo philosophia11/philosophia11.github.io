@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;  
+    
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(151, 144, 247, 0.7),rgba(0,0,0,0.7)),url(Foto/bgrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    background-attachment: fixed;
+
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    cursor: pointer;
+}
+
+.menu-icon{
+    width: 43px;
+    cursor: pointer;
+    margin-left: 40px;
+    border-radius: 10px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+
+.col{
+    flex-flow: 200%;
+}
+
+h1{
+    color: #fff;
+    font-size: 90px;
+}
+
+p{
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+
+.Artikel{
+    color: #000;
+    line-height: 1;
+    width: 30cm;
+    height: 50cm;
+    word-spacing: 0.1cm;
+}
+h1{
+    color: #000;
+    font-size: 50px;
+    line-height: 2;
+    text-align: center;
+    word-spacing: 0.1cm;
+}
+p{
+    color: #000;
+    font-size: 20px;
+    line-height: 1;
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0.6cm;
+    word-spacing: 0.1cm;
+    word-spacing: 0.1cm;
+
+}
+
+ol{
+    text-align: left;
+    margin: 100px;
+    font-size: 0.6cm
+    word-spacing: 0.1cm;
+}
+li{
+    text-align: left;
+    font-size: 0.6cm;
+    word-spacing: 0.1cm;
+    
+
+}
+
+.Comment{
+    text-align: center;
+
+}
+td{
+ text-align: center;
+}
